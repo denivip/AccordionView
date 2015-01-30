@@ -288,7 +288,7 @@
 
 - (void)setFrame:(CGRect)frame{
     [super setFrame:frame];
-    scrollView.frame = frame;
+    scrollView.frame = self.bounds;
 }
 
 #pragma mark UIScrollView delegate
